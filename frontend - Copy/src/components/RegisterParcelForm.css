@@ -1,0 +1,72 @@
+/* Modern Parcel Form Styling */
+.register-form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.register-form-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.parcel-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.parcel-form input {
+  padding: 12px 14px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.parcel-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+.parcel-form button {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  padding: 12px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.parcel-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.parcel-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.tracking-result {
+  margin-top: 25px;
+  background: #f0f9ff;
+  border: 1px solid #cce5ff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tracking-result p {
+  margin: 5px 0;
+  color: #004085;
+}

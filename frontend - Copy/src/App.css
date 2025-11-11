@@ -1,0 +1,117 @@
+/* General Layout */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #e0f7fa, #f1f8ff);
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: white;
+  padding: 12px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid white;
+}
+
+/* Content Area */
+.content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Landing Page */
+.landing {
+  max-width: 700px;
+  margin: 80px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.landing h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.landing h1 span {
+  color: #007bff;
+}
+
+.landing p {
+  color: #555;
+  font-size: 1rem;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.landing-buttons {
+  margin-top: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 8px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+}
+
+.btn-outline {
+  background: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.btn-outline:hover {
+  background: #007bff;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .landing {
+    padding: 25px;
+  }
+}

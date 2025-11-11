@@ -1,0 +1,100 @@
+.track-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.track-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.track-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.track-form input {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.track-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.track-form button {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.track-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.track-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.parcel-card {
+  margin-top: 25px;
+  background: #f0f9ff;
+  border: 1px solid #cce5ff;
+  padding: 18px;
+  border-radius: 12px;
+  text-align: left;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.parcel-card h3 {
+  color: #004085;
+  margin-bottom: 10px;
+}
+
+.parcel-card p {
+  margin: 6px 0;
+  color: #004085;
+  font-size: 14.5px;
+}
+
+.error {
+  color: #ff4d4f;
+  margin-top: 10px;
+  background: #ffe5e5;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
