@@ -1,0 +1,11 @@
+com\example\pts\ParcelTrackingSystemApplication.class
+com\example\pts\config\CorsConfig$1.class
+com\example\pts\entity\ParcelStatus.class
+com\example\pts\dto\ParcelDTO.class
+com\example\pts\entity\Parcel.class
+com\example\pts\service\ParcelService.class
+com\example\pts\config\CorsConfig.class
+com\example\pts\controller\ParcelController.class
+com\example\pts\repository\ParcelRepository.class
+com\example\pts\dto\CreateParcelDTO.class
+com\example\pts\controller\TestController.class
